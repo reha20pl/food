@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tasty Bite</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  
+<div class="nav">
+    <div class="logo">
+        <a href="#">Tasty Bit</a>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="cart.html">cart</a></li>
+    </ul>
+</div>
+    <div class="container">
+        <div class="payment_details">
+          <h1>Payment Information</h1>
+          <div class="details_card">
+            <div class="name_address">
+              <div class="first_lastName">
+                <input type="text" placeholder="First Name" />
+                <hr>
+                <input type="text" placeholder="Last Name" />
+              </div>
+              <div class="address">
+                <input type="text" onkeyup="change()" id="put" placeholder="Address" />
+                <input type="number" placeholder="Pincode" />
+                <input type="text" placeholder="Country" />
+                
+              </div>
+              <div>
+                <input type="number"  placeholder="Enter your card number">
+                <input style="margin-top: 10px;" type="number" placeholder="Enter cvv code">
+                <input style="margin-top: 10px;" type="Date">
+              </div>
+            </div>
+            
+            
+          </div>
+          <div style="text-align: center; margin-top: 20px;" class="proced_payment">
+            <a href="">Procced to payment</a>
+          </div>
+        </div>
+        <div class="order_summary">
+          <h1>Order Summary</h1>
+          <div class="summary_card">
+            <div class="card_item">
+              <div class="product_img">
+                <img src="burger.png" alt="" />
+              </div>
+              <div class="product_info">
+                <h1>burger</h1>
+                <p>Lorem Ipsum is simply dummy text.</p>
+                <div class="close-btn">
+                  <i class="fa fa-close"></i>
+                </div>
+                <div class="product_rate_info">
+                  <h1>$ 20</h1>
+                  <span class="pqt-minus">-</span>
+                  <span class="pqt">1</span>
+                  <span class="pqt-plus">+</span>
+                </div>
+              </div>
+            </div>
+          
+            <hr />
+            <div class="order_price">
+              <p>Order summary</p>
+              <h4>$20</h4>
+            </div>
+            <div class="order_service">
+              <p>Additional Service</p>
+              <h4>$10</h4>
+            </div>
+            <div class="order_total">
+              <p>Total Amount</p>
+              <h4>$30</h4>
+            </div>
+          </div>
+        </div>
+      
+    
+</body>
+</html>
